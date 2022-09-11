@@ -1,1 +1,48 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+#main-header {
+  width: 100%;
+  height: auto;
+  background-color: rgb(211, 51, 51);
+}
+
+.header-title {
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.movie-filter-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.movie-filter-container label {
+  color: white;
+}
+
+#collection-wrapper {
+  width: auto;
+}
+
+.collection-cointainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.movie-cover {
+  margin: 20px;
+  max-width: 20%;
+  height: 600px;
+  background-color: white;
+  border: 5px solid gray;
+}/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":["moviecollection.scss","moviecollection.css"],"names":[],"mappings":"AACA;EACI,WAAA;ACAJ;;ADEA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;ACCJ;;ADGA;EACI,YAAA;EACA,cAAA;EACA,aAAA;EACA,uBAAA;EACA,sBAAA;ACAJ","file":"moviecollection.css"}
+{"version":3,"sources":["moviecollection.scss","moviecollection.css"],"names":[],"mappings":"AACA;EACI,WAAA;ACAJ;;ADEA;EACI,0BAAA;EACA,eAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,eAAA;EACA,QAAA;ACCJ;;ADGA;EACI,mBAAA;EACA,UAAA;EACA,aAAA;EACA,uBAAA;EACA,sBAAA;ACAJ","file":"moviecollection.css"}

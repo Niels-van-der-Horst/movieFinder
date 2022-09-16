@@ -1,14 +1,14 @@
 
-#collection-wrapper {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
+
 
 .collection-container {
+    display: flex;
+    flex-direction: row;
     margin: 30px 80px 0px 80px;
     max-width: 100%;    
 }
+
+
 
 .movie-cover {
     margin-bottom: 15px;
@@ -16,5 +16,13 @@
     height: 800px;
     background-color: white;
     border: 1px solid gray;
+}
+
+
+
+.innerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 

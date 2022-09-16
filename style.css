@@ -16,24 +16,20 @@ body {
   font-size: 1.4em;
 }
 
-.movie-filter-container {
+ .movie-filter-container {
   padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
+} 
 
 .movie-filter-container label {
   color: white;
 }
 
-#collection-wrapper {
-  width: auto;
+.collection-container {
   display: flex;
   flex-direction: row;
-}
-
-.collection-container {
   margin: 30px 80px 0px 80px;
   max-width: 100%;
 }
@@ -44,6 +40,14 @@ body {
   height: 800px;
   background-color: white;
   border: 1px solid gray;
+}
+
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: blue;
+  
 }
 
 footer {

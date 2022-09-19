@@ -1,4 +1,5 @@
-const movies = [{
+const movies = [
+    {
     title: "X-Men: Days of Future Past",
     year: "2014",
     imdbID: "tt1877832",

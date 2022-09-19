@@ -1,5 +1,11 @@
 footer {
-
+    height: 100px;
+    background-color: darkgray;
     color: white;
     text-align: center;
+}
+
+footer > h4 {
+padding-top: 30px;
+
 }

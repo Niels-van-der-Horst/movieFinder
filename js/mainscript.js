@@ -20,11 +20,15 @@ for (let index = 0; index < movies.length; index++) {
 }
     
 
-let filter = document.querySelectorAll(".filterButton");
-    for (let index = 0; index < filter.length; index++) {
-        filter[index].addEventListener("click", function(e) {
+let filterAll = document.querySelectorAll("filterButton");
+// console.log(typeof filter);
+    for (let index = 0; index < filterAll.length; index++) {
+        
+        
+        
+        filterAll[index].addEventListener("click", function(e) {
             let filterVal = this.value;
-            filterMovies(filterVal);
+           filterMovies(filterVal);
            
         });
 
@@ -32,27 +36,35 @@ let filter = document.querySelectorAll(".filterButton");
 
 
 
- function filterMovies(filter) {
+ 
+function filterMovies(e) {
 
-
-    switch (filter) {
-        case 'latest':
-            console.log('click');
-            break;
-        case 'avenger-movies':
-            // colorBG('r');
-            break;
-        case 'x-men-movies':
-            colorBG('o');
-            break;
-        case 'princess-movies':
-            colorBG('p');
-            break;
-        case 'Batman-movies':
-            colorBG('h');
-            break;
-        default:
-            console.log("Geen Resultaat");    
+    if (e=="latest") 
+    {
+        
     }
+
+
+
+    
+    // switch (filter) {
+    //     case 'latest':
+    //         console.log('click');
+    //         break;
+    //     case 'avengermovies':
+    //         // colorBG('r');
+    //         break;
+    //     case 'x-menmovies':
+    //         colorBG('o');
+    //         break;
+    //     case 'princessmovies':
+    //         colorBG('p');
+    //         break;
+    //     case 'Batmanmovies':
+    //         colorBG('h');
+    //         break;
+    //     default:
+    //         console.log("Geen Resultaat");    
+    // }
 
 };

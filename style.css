@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 body {
   margin: 0px;
   padding: 0px;
   background-color: black;
+  font-family: "Roboto";
 }
 
 #main-header {
@@ -17,6 +19,49 @@ body {
   font-size: 1.4em;
 }
 
+.form-container {
+  display: flex;
+  justify-content: right;
+  margin: 30px 200px 30px 40px;
+}
+
+.input {
+  border: 1px solid white;
+  border-radius: 5px 0px 0px 5px;
+  width: 250px;
+  height: 40px;
+  text-indent: 7px;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 1px;
+}
+
+.submit-button {
+  border: 1px solid white;
+  border-radius: 0px 5px 5px 0px;
+  width: 70px;
+  height: 45px;
+  font-size: 1em;
+  margin: 3px;
+  padding: 0px;
+}
+
+.submit-button:hover {
+  border: 1px solid rgb(128, 126, 126);
+}
+
+.clear-results {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 70px;
+  height: 46px;
+  font-size: 1em;
+}
+
+.clear-results:hover {
+  border: 1px solid rgb(128, 126, 126);
+}
+
 .movie-filter-container {
   padding: 15px;
   display: flex;
@@ -26,6 +71,13 @@ body {
 
 .movie-filter-container label {
   color: white;
+  font-family: "Roboto";
+  size: 1.5em;
+  font-weight: 600;
+}
+
+.filterButton {
+  margin-right: 10px;
 }
 
 .collection-container {

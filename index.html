@@ -6,12 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Finder</title>
     <link rel="stylesheet" href="style.css">
+    
     <script defer src="js/moviecollection.js"></script>
     <script defer src="js/mainscript.js"></script>
+    
 </head>
 <body>
     <header class="header-wrapper" id="main-header">
         <div class="header-title"><h1>Winc Movie Finder</h1></div>
+        
+        <div class="form-container">
+            <form class="form">
+                <input id="search-input" type="text" class="input" placeholder="search..."/>
+                <button id="submit-search" class="submit-button">GO</button>
+                <button id="clear" class="clear-results">clear</button>
+            </form>
+        </div>
+
+  <div class="results-container">
+     <ul class="results-list" id="list">
+
+     </ul>
+  </div>
         <nav class="movie-filter-container" id="filters">
             <label id="category1"><input type="radio"  class="filterButton" name="filtermovies" value="reset">Reset filter</label>
             <label id="category2"><input type="radio"  class="filterButton" name="filtermovies" value="latest">Latest movies, 2014 or newer</label>
@@ -25,15 +41,10 @@
 
     <section id="collection-wrapper">
         <div class="collection-container" id="moviecover">
-            
-
-
-
-
-            
         </div>
 
     </section>
 <footer><h4>MovieTime 2022</h4></footer>
+<script defer src="js/searchbar.js"></script>
 </body>
 </html>

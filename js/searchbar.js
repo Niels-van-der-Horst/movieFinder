@@ -17,11 +17,13 @@ let value = searchInput.value
         // 4. return the results only if the value of the search is included in the person's name
         // we need to write code (a function for filtering through our data to include the search input value)
     } else {
+
+        alert("No movies found on this search!");
         // 5. return nothing
         // input is invalid -- show an error message or show no results
         console.log('input is empty');
         return false;
-
+        
     }
     
 });

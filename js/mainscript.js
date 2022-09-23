@@ -18,6 +18,7 @@ function createPosterHtml() {
         const wrapper = document.getElementById("moviecover");
         wrapper.appendChild(innerDiv);
         // Adding a tag to the post element
+        
         let linkWrapper = document.createElement('a');
         const imdbBaseUrl = 'https://www.imdb.com/title/';
         linkWrapper.href =  imdbBaseUrl + movies[index].imdbID;
